@@ -1,7 +1,17 @@
+/* delete once finished */
+.section {
+  border: 1px solid red;
+  background-color: lavender;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .layout {
@@ -14,13 +24,34 @@ nav ul li {
   display: inline-block;
 }
 
-nav ul li a {
+.link {
   text-decoration: none;
   color: red;
+  font-size: 1.4rem;
+  margin: 0 15px;
 }
 
 header {
   padding: 0 10%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+  padding: 25px 0px;
+  gap: 40px;
+}
+
+.section h1 {
+  font-size: 48px;
+}
+
+.section p {
+  font-size: 22px;
 }
