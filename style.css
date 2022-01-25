@@ -55,3 +55,39 @@ header {
 .section p {
   font-size: 22px;
 }
+
+.characters-layout {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.portrait {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(186, 200, 212, 0.781);
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 36px;
+}
+
+.character {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.character-name {
+  text-align: center;
+  font-size: 28px;
+}
+
+.char-description {
+  text-align: center;
+  font-size: 24px;
+}
